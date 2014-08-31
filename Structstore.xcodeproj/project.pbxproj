@@ -126,16 +126,16 @@
 		B169E59A19B3894B002A7745 /* Structstore */ = {
 			isa = PBXGroup;
 			children = (
-				B169E5A619B3894B002A7745 /* SSAppDelegate.h */,
-				B169E5A719B3894B002A7745 /* SSAppDelegate.m */,
-				B169E5A919B3894B002A7745 /* MainMenu.xib */,
 				B169E5AC19B3894B002A7745 /* Images.xcassets */,
-				B169E59B19B3894B002A7745 /* Supporting Files */,
 				B169E5C819B38AE1002A7745 /* ListWindowController.h */,
 				B169E5C919B38AE1002A7745 /* ListWindowController.m */,
 				B169E5CA19B38AE1002A7745 /* ListWindowController.xib */,
+				B169E5A919B3894B002A7745 /* MainMenu.xib */,
+				B169E5A619B3894B002A7745 /* SSAppDelegate.h */,
+				B169E5A719B3894B002A7745 /* SSAppDelegate.m */,
 				B169E5CF19B38DD9002A7745 /* SSModel.h */,
 				B169E5D019B38DD9002A7745 /* SSModel.m */,
+				B169E59B19B3894B002A7745 /* Supporting Files */,
 			);
 			path = Structstore;
 			sourceTree = "<group>";
