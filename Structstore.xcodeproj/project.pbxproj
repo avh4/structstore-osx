@@ -18,6 +18,12 @@
 		B169E5B519B3894B002A7745 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B169E59419B3894B002A7745 /* Cocoa.framework */; };
 		B169E5BD19B3894B002A7745 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B169E5BB19B3894B002A7745 /* InfoPlist.strings */; };
 		B169E5BF19B3894B002A7745 /* StructstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5BE19B3894B002A7745 /* StructstoreTests.m */; };
+		B169E5CB19B38AE1002A7745 /* ListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5C919B38AE1002A7745 /* ListWindowController.m */; };
+		B169E5CC19B38AE1002A7745 /* ListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5C919B38AE1002A7745 /* ListWindowController.m */; };
+		B169E5CD19B38AE1002A7745 /* ListWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B169E5CA19B38AE1002A7745 /* ListWindowController.xib */; };
+		B169E5CE19B38AE1002A7745 /* ListWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B169E5CA19B38AE1002A7745 /* ListWindowController.xib */; };
+		B169E5D119B38DD9002A7745 /* SSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5D019B38DD9002A7745 /* SSModel.m */; };
+		B169E5D219B38DD9002A7745 /* SSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5D019B38DD9002A7745 /* SSModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,11 @@
 		B169E5BA19B3894B002A7745 /* StructstoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StructstoreTests-Info.plist"; sourceTree = "<group>"; };
 		B169E5BC19B3894B002A7745 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B169E5BE19B3894B002A7745 /* StructstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StructstoreTests.m; sourceTree = "<group>"; };
+		B169E5C819B38AE1002A7745 /* ListWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListWindowController.h; sourceTree = "<group>"; };
+		B169E5C919B38AE1002A7745 /* ListWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListWindowController.m; sourceTree = "<group>"; };
+		B169E5CA19B38AE1002A7745 /* ListWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListWindowController.xib; sourceTree = "<group>"; };
+		B169E5CF19B38DD9002A7745 /* SSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSModel.h; sourceTree = "<group>"; };
+		B169E5D019B38DD9002A7745 /* SSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +131,11 @@
 				B169E5A919B3894B002A7745 /* MainMenu.xib */,
 				B169E5AC19B3894B002A7745 /* Images.xcassets */,
 				B169E59B19B3894B002A7745 /* Supporting Files */,
+				B169E5C819B38AE1002A7745 /* ListWindowController.h */,
+				B169E5C919B38AE1002A7745 /* ListWindowController.m */,
+				B169E5CA19B38AE1002A7745 /* ListWindowController.xib */,
+				B169E5CF19B38DD9002A7745 /* SSModel.h */,
+				B169E5D019B38DD9002A7745 /* SSModel.m */,
 			);
 			path = Structstore;
 			sourceTree = "<group>";
@@ -234,6 +250,7 @@
 				B169E59F19B3894B002A7745 /* InfoPlist.strings in Resources */,
 				B169E5AD19B3894B002A7745 /* Images.xcassets in Resources */,
 				B169E5A519B3894B002A7745 /* Credits.rtf in Resources */,
+				B169E5CD19B38AE1002A7745 /* ListWindowController.xib in Resources */,
 				B169E5AB19B3894B002A7745 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B169E5BD19B3894B002A7745 /* InfoPlist.strings in Resources */,
+				B169E5CE19B38AE1002A7745 /* ListWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B169E5A819B3894B002A7745 /* SSAppDelegate.m in Sources */,
+				B169E5CB19B38AE1002A7745 /* ListWindowController.m in Sources */,
 				B169E5A119B3894B002A7745 /* main.m in Sources */,
+				B169E5D119B38DD9002A7745 /* SSModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B169E5D219B38DD9002A7745 /* SSModel.m in Sources */,
 				B169E5BF19B3894B002A7745 /* StructstoreTests.m in Sources */,
+				B169E5CC19B38AE1002A7745 /* ListWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
