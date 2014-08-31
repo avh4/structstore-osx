@@ -23,6 +23,7 @@
     self = [super initWithWindow:window];
     if (self) {
       self.model = [[SSModel alloc] init];
+      self.jsonWindowControllers = [NSMutableArray array];
     }
     return self;
 }
@@ -35,7 +36,18 @@
 }
 
 - (IBAction)didTapAdd:(id)sender {
-  [self.model add];
+  JsonEditorWindowController *wc = [[JsonEditorWindowController alloc] init];
+  wc.delegate = self;
+  [self.jsonWindowControllers addObject:wc];
+  [wc showWindow:self];
+}
+
+#pragma mark - <JsonEditorWindowControllerDelegate>
+
+- (void)jsonEditorWindowController:(JsonEditorWindowController *)jsonEditorWindowController didSaveItem:(NSDictionary *)item {
+  [self.model addItem:item];
+  [self.jsonWindowControllers removeObject:jsonEditorWindowController];
+  [jsonEditorWindowController dismiss];
   [self.tableView reloadData];
 }
 

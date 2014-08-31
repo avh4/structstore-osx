@@ -24,6 +24,10 @@
 		B169E5CE19B38AE1002A7745 /* ListWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B169E5CA19B38AE1002A7745 /* ListWindowController.xib */; };
 		B169E5D119B38DD9002A7745 /* SSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5D019B38DD9002A7745 /* SSModel.m */; };
 		B169E5D219B38DD9002A7745 /* SSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5D019B38DD9002A7745 /* SSModel.m */; };
+		B169E5D619B3908D002A7745 /* JsonEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5D419B3908D002A7745 /* JsonEditorWindowController.m */; };
+		B169E5D719B3908D002A7745 /* JsonEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B169E5D419B3908D002A7745 /* JsonEditorWindowController.m */; };
+		B169E5D819B3908D002A7745 /* JsonEditorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B169E5D519B3908D002A7745 /* JsonEditorWindowController.xib */; };
+		B169E5D919B3908D002A7745 /* JsonEditorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B169E5D519B3908D002A7745 /* JsonEditorWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,9 @@
 		B169E5CA19B38AE1002A7745 /* ListWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListWindowController.xib; sourceTree = "<group>"; };
 		B169E5CF19B38DD9002A7745 /* SSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSModel.h; sourceTree = "<group>"; };
 		B169E5D019B38DD9002A7745 /* SSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSModel.m; sourceTree = "<group>"; };
+		B169E5D319B3908D002A7745 /* JsonEditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonEditorWindowController.h; sourceTree = "<group>"; };
+		B169E5D419B3908D002A7745 /* JsonEditorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonEditorWindowController.m; sourceTree = "<group>"; };
+		B169E5D519B3908D002A7745 /* JsonEditorWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JsonEditorWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				B169E5AC19B3894B002A7745 /* Images.xcassets */,
+				B169E5D319B3908D002A7745 /* JsonEditorWindowController.h */,
+				B169E5D419B3908D002A7745 /* JsonEditorWindowController.m */,
+				B169E5D519B3908D002A7745 /* JsonEditorWindowController.xib */,
 				B169E5C819B38AE1002A7745 /* ListWindowController.h */,
 				B169E5C919B38AE1002A7745 /* ListWindowController.m */,
 				B169E5CA19B38AE1002A7745 /* ListWindowController.xib */,
@@ -247,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B169E5D819B3908D002A7745 /* JsonEditorWindowController.xib in Resources */,
 				B169E59F19B3894B002A7745 /* InfoPlist.strings in Resources */,
 				B169E5AD19B3894B002A7745 /* Images.xcassets in Resources */,
 				B169E5A519B3894B002A7745 /* Credits.rtf in Resources */,
@@ -259,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B169E5D919B3908D002A7745 /* JsonEditorWindowController.xib in Resources */,
 				B169E5BD19B3894B002A7745 /* InfoPlist.strings in Resources */,
 				B169E5CE19B38AE1002A7745 /* ListWindowController.xib in Resources */,
 			);
@@ -275,6 +287,7 @@
 				B169E5CB19B38AE1002A7745 /* ListWindowController.m in Sources */,
 				B169E5A119B3894B002A7745 /* main.m in Sources */,
 				B169E5D119B38DD9002A7745 /* SSModel.m in Sources */,
+				B169E5D619B3908D002A7745 /* JsonEditorWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B169E5D719B3908D002A7745 /* JsonEditorWindowController.m in Sources */,
 				B169E5D219B38DD9002A7745 /* SSModel.m in Sources */,
 				B169E5BF19B3894B002A7745 /* StructstoreTests.m in Sources */,
 				B169E5CC19B38AE1002A7745 /* ListWindowController.m in Sources */,

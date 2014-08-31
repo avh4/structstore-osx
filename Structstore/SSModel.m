@@ -17,8 +17,7 @@
   return self;
 }
 
-- (void)add {
-  NSDictionary *item = [NSDictionary dictionaryWithObject:@"New entry" forKey:@"name"];
+- (void)addItem:(NSDictionary *)item {
   [self.items addObject:item];
 }
 

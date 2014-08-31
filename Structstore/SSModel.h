@@ -12,6 +12,6 @@
 
 @property (strong, nonatomic) NSMutableArray *items;
 
-- (void)add;
+- (void)addItem:(NSDictionary *)item;
 
 @end
