@@ -19,6 +19,7 @@
 @interface JsonEditorWindowController : NSWindowController
 
 @property (weak) id<JsonEditorWindowControllerDelegate> delegate;
+@property (strong) IBOutlet NSTextView *textField;
 
 - (IBAction)didTapSave:(id)sender;
 
