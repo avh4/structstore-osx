@@ -19,7 +19,11 @@
 {
   // Insert code here to initialize your application
 
-  self.listWindowController = [[ListWindowController alloc] init];
+  NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+  NSString *docsDirectory = [paths objectAtIndex:0];
+  NSString *jsonPath = [docsDirectory stringByAppendingPathComponent:@"test-structstore.json"];
+
+  self.listWindowController = [[ListWindowController alloc] initWithJsonPath:jsonPath];
   [self.listWindowController showWindow:self];
 }
 

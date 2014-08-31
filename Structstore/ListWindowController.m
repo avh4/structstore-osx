@@ -15,14 +15,21 @@
 @implementation ListWindowController
 
 - (id)init {
-  return [self initWithWindowNibName:@"ListWindowController"];
+  [self doesNotRecognizeSelector:_cmd];
+  return nil;
+}
+
+- (id)initWithJsonPath:(NSString *)jsonPath {
+  if (self = [self initWithWindowNibName:@"ListWindowController"]) {
+    self.model = [[SSModel alloc] initWithJsonPath:jsonPath];
+  }
+  return self;
 }
 
 - (id)initWithWindow:(NSWindow *)window
 {
     self = [super initWithWindow:window];
     if (self) {
-      self.model = [[SSModel alloc] init];
       self.jsonWindowControllers = [NSMutableArray array];
     }
     return self;

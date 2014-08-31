@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) NSMutableArray *items;
 
+@property (copy, nonatomic) NSString *jsonPath;
+
+- (id)initWithJsonPath:(NSString *)jsonPath;
 - (void)addItem:(NSDictionary *)item;
 
 @end

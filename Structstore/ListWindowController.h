@@ -16,6 +16,8 @@
 @property (weak) IBOutlet NSTableView *tableView;
 @property (strong, nonatomic) NSMutableArray *jsonWindowControllers;
 
+- (id)initWithJsonPath:(NSString *)jsonPath;
+
 - (IBAction)didTapAdd:(id)sender;
 
 @end
